@@ -1,0 +1,7 @@
+<a routerLink="/"><button>Home</button></a>
+<!-- Event binding được sử dụng để phản hồi các sự kiện từ người dùng -->
+<h2>Hello there!</h2>
+<button (click)="showInfo()">Click me!</button>
+<!-- kết nối dữ liệu từ model của ứng dụng với giao diện người dùng (UI)  -->
+<input type="text" [value]="user.name" /> 
+<input type="number" [value]="user.age" /> 
